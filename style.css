@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', sans-serif;
+
+}
+
+header {
+
+}
+
+header .container{
+    margin: 5rem 10rem 0rem 10rem;
+    
+}
+
+header .container .banner{
+    display: flex;
+    justify-content: center;
+}
+header .container .banner img{
+    height: 300px;
+    width: 300px;
+}
+
+header .container nav{
+    background-color:lightpink;
+}
+
+header .container nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    padding: 1rem;
+}
+
+header .container nav ul li{
+    list-style-type: none;
+    
+}
+
+header .container nav ul li a{
+    text-decoration: none;
+    color:darkred;
+    font-size: 1.3rem;
+}
+
+header .container nav ul li a:hover{
+    color: white;
+}
