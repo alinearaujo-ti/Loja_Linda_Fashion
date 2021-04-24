@@ -56,7 +56,7 @@ section .container-perfumaria{
 }
 
 section .container-perfumaria .row01{
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     display: flex;
     justify-content:space-between;
 }
@@ -67,17 +67,19 @@ section .container-perfumaria .row01 .card-perfume{
     justify-content:center;
     flex-direction:column;
     margin-bottom: 3rem;
+    width: 23%;
 }
 
 section .container-perfumaria .row01 .card-perfume .card-perfume-img{
     display: flex;
     justify-content:center;
-
+    
 }
 
 section .container-perfumaria .row01 .card-perfume .card-perfume-img img{
-    width: 14rem;
-    height: 14rem;
+    width: 100%;
+    border: 1px solid black;
+    
 }
 
 section .container-perfumaria .row01 .card-perfume-text{
@@ -91,6 +93,8 @@ section .container-perfumaria .row01 .card-perfume-text{
 section .container-perfumaria .row01 .card-perfume-text p{
     font-size:1rem;
     color: black;
+    width: 90%;
+    text-align: center;
     
 }
 
@@ -101,7 +105,6 @@ section .container-perfumaria .row01 .card-perfume-preco{
     height: 5rem;
     align-items: center;
     flex-direction:column;
-    
 }
 
 section .container-perfumaria .row01 .card-perfume-preco p{
@@ -109,6 +112,13 @@ section .container-perfumaria .row01 .card-perfume-preco p{
     font-size:1rem;
     color: black;
     margin-bottom: 0.5rem;
+    height:4rem;
+    width: 6rem;
+    text-align: center;
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content:center;
+    align-items: center;
 }
 
 section .container-perfumaria .row01 .card-perfume-preco a{
