@@ -50,3 +50,77 @@ header .container nav ul li a{
 header .container nav ul li a:hover{
     color: white;
 }
+
+section .container-perfumaria{
+    margin: 5rem 10rem 0rem 10rem;   
+}
+
+section .container-perfumaria .row01{
+    border: 1px solid black;
+    display: flex;
+    justify-content:space-between;
+}
+
+section .container-perfumaria .row01 .card-perfume{
+    border: 1px solid black;
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    margin-bottom: 3rem;
+}
+
+section .container-perfumaria .row01 .card-perfume .card-perfume-img{
+    display: flex;
+    justify-content:center;
+
+}
+
+section .container-perfumaria .row01 .card-perfume .card-perfume-img img{
+    width: 14rem;
+    height: 14rem;
+}
+
+section .container-perfumaria .row01 .card-perfume-text{
+    display: flex;
+    justify-content:center;
+    border: 1px solid royalblue;
+    height: 3rem;
+    align-items: center;
+}
+
+section .container-perfumaria .row01 .card-perfume-text p{
+    font-size:1rem;
+    color: black;
+    
+}
+
+section .container-perfumaria .row01 .card-perfume-preco{
+    border: 1px solid rgb(26, 240, 26);
+    display: flex;
+    justify-content:center;
+    height: 5rem;
+    align-items: center;
+    flex-direction:column;
+    
+}
+
+section .container-perfumaria .row01 .card-perfume-preco p{
+    border: 1px solid royalblue;
+    font-size:1rem;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+section .container-perfumaria .row01 .card-perfume-preco a{
+    border: 1px solid royalblue;
+    text-decoration: none;
+    color: white;
+    background-color: lightpink;
+    height: 4rem;
+    width: 6rem;
+    text-align:center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
