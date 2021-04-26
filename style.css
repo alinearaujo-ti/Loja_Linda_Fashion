@@ -52,7 +52,14 @@ header .container nav ul li a:hover{
 }
 
 section .container-perfumaria{
-    margin: 5rem 10rem 0rem 10rem;   
+    margin: 2rem 10rem 0rem 10rem;   
+}
+
+section .container-perfumaria .topico{
+    display: flex;
+    justify-content:center;
+    border: darkred 1px solid;
+    margin-bottom: 2rem;
 }
 
 section .container-perfumaria .row01{
